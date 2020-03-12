@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>scott</string>
+	</array>
+	<key>name</key>
+	<string>MichaelGo</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>TELL HIM TO CALL ME ASAP AS POSSIBLE|WORLDS BEST BOSS|I DIDNT SAY IT I DECLARED IT|EXPLAIN THIS TO ME LIKE IM FIVE|ITS NEVER TOO EARLY FOR ICE CREAM|I UNDERSTAND NOTHING|IM RUNNING AWAY FROM MY RESPONSIBLITIES AND IT FEELS GOOD|IM DEAD INSIDE|THATS WHAT SHE SAID</string>
+			<key>name</key>
+			<string>keyword.control</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>I THINK THAT PRETTY MUCH SUMS IT UP|IM NOT A MORON|SUE ME|ILL KILL YOU|I AM COLLAR BLIND|I AM NOT SUPERSTITIOUS BUT IM A LTTLE STITIOUS|MO MONEY MO PROBLEMS|I KNOW EXACTLY WHAT TO DO BUT IN A MUCH MORE REAL SENSE I HAVE NO IDEA WHAT TO DO|FOOL ME ONCE STRIKE ONE FOOL ME TWICE STRIKE THREE|I DONT EVEN CONSIDER MYSELF PART OF SOCIETY</string>
+			<key>name</key>
+			<string>keyword.control</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>GAME SET MATCH POINT GAME OVER END OF GAME</string>
+			<key>name</key>
+			<string>constant.numeric</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>@OH GOD PLEASE NO|@CHILLAX</string>
+			<key>name</key>
+			<string>support.constant</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>I DECLARE BANKRUPTCY|SHOULD HAVE BURNT THE PLACE WHEN I HAD THE CHANCE</string>
+			<key>name</key>
+			<string>entity.name.function</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>WHERE ARE THE TURTLES|HOW THE TURNTABLES|WHY ARE THE WAY YOU ARE|I AM BEYONCE ALWAYS|SHES NOT YO HO NO MO</string>
+			<key>name</key>
+			<string>storage.type</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>MAKE FRIENDS FIRST SALES SECOND LOVE THIRD IN NO PARTICULAR ORDER|I LOVE INSIDE JOKES ID LOVE TO BE PART OF ONE SOMEDAY|I WANT PEOPLE TO BE AFRAID OF HOW MUCH THEY LOVE ME</string>
+			<key>name</key>
+			<string>variable.parameter</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>".*"</string>
+			<key>name</key>
+			<string>string.quoted.double</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\s[0-9]+</string>
+			<key>name</key>
+			<string>constant.numeric</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.arnoldc</string>
+	<key>uuid</key>
+	<string>6f5f460e-5ab0-4ce2-8cb7-0cafea6c46c9</string>
+</dict>
+</plist>
